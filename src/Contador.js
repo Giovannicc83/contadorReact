@@ -45,7 +45,7 @@ const Contador = ({valor}) => {
             <h1>Contador</h1>
             <h2>{conteo}</h2>
             <button onClick={() => setConteo (conteo + 1)} >+</button>            
-            <button onClick={() => setConteo (conteo - 1)} >RESET</button>            
+            <button onClick={() => setConteo (valor)} >RESET</button>            
             <button onClick={() => setConteo (conteo - 1)} >-</button>
         </>
     )
